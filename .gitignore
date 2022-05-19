@@ -1,3 +1,4 @@
-# Files that are created when compiling the pdf
+.vscode
 resume.aux
 resume.log
+resume.out
