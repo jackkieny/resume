@@ -143,8 +143,8 @@ Last Updated on \today
 % \includegraphics[scale=0.23,trim={1.4cm 1.25cm -0.4cm 0cm}]{latex/icons/home.png}{#1}\hspace{0.3cm}
 \includegraphics[scale=0.23,trim={0cm 1.25cm -0.4cm 0cm}]{latex/icons/phone.png}{#2}\hspace{0.3cm}
 \includegraphics[scale=0.23,trim={0cm 1.25cm -0.4cm 0cm}]{latex/icons/mail.png}{#3}\hspace{0.3cm}
-\includegraphics[scale=0.23,trim={0cm 1.25cm -0.4cm 0cm}]{latex/icons/linkedin.png}{#4}\hspace{0.3cm}
-\includegraphics[scale=0.23,trim={0cm 1.25cm -0.4cm 0cm}]{latex/icons/github.png}{#5}
+\includegraphics[scale=0.23,trim={0cm 1.25cm -0.4cm 0cm}]{latex/icons/github.png}{#4}
+\includegraphics[scale=0.23,trim={0cm 1.25cm -0.4cm 0cm}]{latex/icons/linkedin.png}{#5}\hspace{0.3cm}
 }\parbox{\wd0}{\box0}\endgroup}
 
 %Inline Centered Logo
