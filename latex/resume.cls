@@ -34,9 +34,9 @@
 %Used for Name  and Section Headings
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \def \pathtitlefont {latex/fonts/sourcesanspro/} 
-\def \firstnamefont {sourcesanspro-SemiBold}
+\def \firstnamefont {sourcesanspro-light}
 \def \secondnamefont {sourcesanspro-light}
-\def \titlefont {\firstnamefont}
+\def \titlefont {sourcesanspro-SemiBold}
 \def \namefontsize {9.5}
 
 %Main Font Definitions
