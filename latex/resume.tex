@@ -1,5 +1,6 @@
 \documentclass[]{latex/resume}
 \usepackage{fancyhdr}
+\usepackage{graphicx}
 \pagestyle{fancy}
 \fancyhf{}
 \begin{document}
@@ -13,7 +14,7 @@
 \namesection
     {Jack}
     {Kieny}
-    {Manager at Chick-fil-A}
+    {SQL Developer at National Indemnity Company}
     {\contactline
         {\href{}{In Progress}}
         {\href{tel:+1402850047}{(402) 850-0748}}
@@ -33,11 +34,14 @@
 
 %%% Summary %%%
 \section{Summary}
-Recent graduate from the University of Nebraska-Lincoln seeking a full-time position in the computer science field.
+SQL Developer with 2+ years of experience in database and ETL process management. \\
 I possess strong technical skills in software development, database management, algorithms, and data structures.
-I have a proven history of customer service,\\leadership, and competent communication skills.
-I am detail-oriented, proactive, and eager to learn and 
-I am excited to contribute my expertise to a dynamic team and further develop my skills in a professional environment.
+I have experience working with multiple different programming languages\\and frameworks. I also have experience developing RESTful APIs, containerizing and deploying\\applications.
+I am detail-oriented, proactive, eager to learn and further develop my skills\\as a software engineer.
+
+% Recent graduate from the University of Nebraska-Lincoln seeking a full-time position in the computer science field.
+% I have a proven history of customer service,\\leadership, and competent communication skills.
+% I am excited to contribute my expertise to a dynamic team and further develop my skills in a professional environment.
 
 \sectionsep
 
@@ -46,50 +50,29 @@ I am excited to contribute my expertise to a dynamic team and further develop my
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Experience}
+    \runsubsection{National Indemnity Company} \descript{| SQL Developer}
+    \location{June 2023 – Present | Omaha, NE}
+    \vspace{\topsep} % Hacky fix for awkward extra vertical space
+    \begin{tightemize}
+        \sectionsep
+            \item Manage and maintain 15+ applications deployed enterprise-wide
+            \item Develop and optimize SQL queries and stored procedures
+            \item Support ETL processes across data warehouse applications
+            \item Collaborate within an Agile Scrum team to deliver solutions in a timely manner
+        \end{tightemize}
+    
+    \sectionsep
+
     \runsubsection{Chick-fil-A} \descript{| Manager }
     \location{June 2020 – March 2023 | Lincoln, NE}
     \vspace{\topsep} % Hacky fix for awkward extra vertical space
     \begin{tightemize}
-        \sectionsep
-            \item Commitment to the vision with HEART, practices CORE 4 daily, and ensures guest satisfaction by enforcing quality standards and showing a sense of urgency.
-            \item Managing a team of individuals to ensure that labor and productivity goals are met.
-            \item Cash management, daily team huddles, problem solving skills, adaptive and independent.
+        % \sectionsep
+            \item Commitment to guest satisfaction, quality standards and a sense of urgency
+            \item Managed a team of individuals to ensure that labor and productivity goals were met
+            \item Cash management, daily team huddles, problem solving skills, adaptive and independent
     \end{tightemize}
     
-    \sectionsep
-
-    \runsubsection{University of Nebraska-Lincoln} \descript{| Front Desk Assistant}
-    \location{November 2019 – March 2020 | Lincoln, NE}
-    \begin{tightemize}
-        \sectionsep
-            \item Checked in residents and their guests after midnight.
-            \item Replaced room keys, handed out mail, rented our recreation equipment, etc.
-            \item Answered questions, in person and over the phone, to assist parents and guests.
-        \end{tightemize}
-
-    \sectionsep
-
-        \runsubsection{Creighton University} \descript{| Student Worker}
-        \location{March 2017 – August 2019 | Omaha, NE}
-        \begin{tightemize}
-            \sectionsep
-                \item Worked under the supervision of engineers doing university maintenance across campus.
-                \item Ensure that everything relating to the dorms was in proper and working condition.
-                \item Electrical, air filtration, HVAC, plumbing, cleaning, etc.
-            \end{tightemize}
-            
-    \sectionsep
-
-    % \runsubsection{Glock Detasseling} \descript{| Supervisor }
-    % \location{July 2013 – July 2020 | Omaha, NE}
-    % \begin{tightemize}
-    %     \sectionsep
-    %         \item Seasonal fieldwork involving the removal of corn tassels to enable cross-pollination.
-    %         \item Began as a general worker, then promoted to check/supervisor.
-    %         \item Assess employees' performance to ensure quality and accuracy.
-    % \end{tightemize}
-    
-    % \sectionsep
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -98,13 +81,23 @@ I am excited to contribute my expertise to a dynamic team and further develop my
 
 \section{Projects}
 
-    \runsubsection{A new pyP3DB} \descript{| Product Manager | Python \textbullet{} SQL \textbullet{} Django \textbullet{} AWS \textbullet{} MongoDB \textbullet{} Conda}
+    \runsubsection{Recoding PLUM} \descript{| SQL Developer | C\# \textbullet{} VB.Net \textbullet{} SQL}
+    \location{November 2023 - June 2024 | Null Penguins - Data Warehouse}
+    \begin{tightemize}
+        \item Primary developer to optimize flat file output for ETL processes
+        \item Reduced the run-time of upload application and manual verification workload for premium processors by simplifying coverage fields from vehicle-level to policy-level
+        \item Tailored recoding processes to meet specific coverage requirements across 42 states
+    \end{tightemize}
+
+    \sectionsep
+
+    \runsubsection{A new pyP3DB} \descript{| Product Manager/Backend Developer |}
     \location{August 2021 - May 2022 | Senior Design - University Sponsored Project}
     \begin{tightemize}
-        \item Served as the product manager on the assigned senior design team building a full stack web application using various tools.
-        \item Followed good software engineering practices (e.g. Agile, Testing, Scrum, Daily Standup).
-        \item Met weekly with the project's sponsor to gather requirements about design and functionality.
-        \item Worked with backend tools like Python, SQL Alchemy, Django, and AWS RDS.
+        \item Served as product manager on senior design team building a full stack web application 
+        \item Implemented standard software engineering practices (e.g. Agile, Testing, Daily Standup)
+        \item Led weekly team meetings to track requirements, design, and functionality
+        \item Proficient in Python, Flask, and Django
     \end{tightemize}
 
     \sectionsep
@@ -136,28 +129,31 @@ I am excited to contribute my expertise to a dynamic team and further develop my
 
 \section{Skills}
     \subsection{Programming}
-            \location{Frontend:}
-                HTML \textbullet{}
-                CSS \textbullet{}
-                JavaScript\\
-        \sectionsep
-            \location{Backend:}
+            \location{Languages:}
                 Python \textbullet{}
-                Java \textbullet{}
-                C/C++ \\
+                C \textbullet{}
+                C\#
+                \\
+                Go \textbullet{}
+                JavaScript
+                \\
         \sectionsep
-            \location{Database:}
+            \location{Databases:}
                 SQL \textbullet{}
-                MongoDB \\
+                MongoDB
+                \\
         \sectionsep
-            \location{Frameworks/Libraries:}
+            \location{Frameworks}
                 React \textbullet{}
-                Django  \textbullet{}
-                SQLAlchemy\\
+                Flask \textbullet{}
+                Django 
+                \\
         \sectionsep
-            \location{Tools/Platforms:}
+            \location{Tools & Platforms:}
                 Git  \textbullet{}
-                ZenHub\\
+                Docker \textbullet{}
+                Kubernetes
+                \\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -166,9 +162,9 @@ I am excited to contribute my expertise to a dynamic team and further develop my
 
 \section{Education} 
     \subsection{University of Nebraska-Lincoln}
-    \descript{Bachelors of Computer Science\\ with minor in Mathematics }
+    \descript{Bachelor of Computer Science\\ Minor in Mathematics }
     \location{December 2022 | Lincoln, NE}
-    School of Computing \\
+    School of Engineering\\
 
     % \sectionsep
 
