@@ -1,3 +1,3 @@
 #!/bin/bash
-xelatex latex/resume.tex -no-c-style-errors -quiet
-start resume.pdf
+xelatex latex/resume.tex 
+xdg-open resume.pdf
