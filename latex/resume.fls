@@ -1,0 +1,4 @@
+PWD C:\Users\jackk\git\resume\latex
+INPUT C:\Users\jackk\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\jackk\git\resume\latex\resume.tex
+OUTPUT resume.log
